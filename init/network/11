@@ -1,0 +1,4 @@
+nat-1 (Network Address Translation)
+
+A partir de ce point, l'adresse IP n'est plus privee (Les adresses privees sont en 10.x.x.x / 172.16-31.x.x / 192.168.x.x)
+On sort donc du reseau local a partir de ce materiel

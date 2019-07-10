@@ -1,0 +1,135 @@
+body
+{
+  background-color: #505050;
+  width: 1800px;
+  height: 1200px;
+  margin-left: 290px;
+}
+
+.header
+{
+  max-width: 1420px;
+  max-height: 450px;
+  box-shadow: 10px 10px 5px black;
+  background-color: #909090;
+  margin-left: -360px;
+}
+
+.border
+{
+  border: 10px solid;
+  border-radius: 10px;
+  border-color: #909090;
+}
+
+.focus
+{
+  border: 5px solid;
+  border-radius: 4px;
+  border-color: red;
+}
+
+.litems
+{
+  background-color: #909090;
+  height: 390px;
+  width: 120px;
+  margin: 18px 30px 30px 35px;
+  float: left;
+  box-shadow: 10px 10px 5px black;
+}
+
+.ritems
+{
+  background-color: #909090;
+  position: absolute;
+  height: 390px;
+  width: 120px;
+  margin-left: 1280px;
+  margin-top: -600px;
+  float: right;
+  box-shadow: 10px 10px 5px black;
+}
+
+.box
+{
+  background-color: #88ff89;
+  box-shadow: 10px 10px 5px black;
+  border-radius: 10px;
+  height: 150px;
+  width: 550px;
+  margin-top: -100px;
+  position: relative;
+  font-family: sans-serif;
+}
+
+.shadtext
+{
+  font-size: 30px;
+  font-family: serif;
+  font-family: Georgia;
+}
+
+.mac
+{
+  text-shadow: 4px 4px 6px red;
+}
+
+p
+{
+  margin-left: 10px;
+}
+
+img.logo
+{
+  position: relative;
+  margin-left: -970px;
+}
+
+img.loupe
+{
+  float: right;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 720px;
+}
+
+img.close
+{
+  float: right;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 950px;
+}
+
+img.reload
+{
+  float: right;
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 950px;
+}
+
+img.left
+{
+  margin-top: 10px;
+  margin-left: 0px;
+}
+
+img.cluster
+{
+  box-shadow: 10px 10px 5px black;
+  margin-top: 18px;
+  margin-left: -550px;
+}
+
+input.gettext
+{
+  width: 61%;
+  margin-left: 10px;
+}
+
+input.button
+{
+  margin-left: 10px;
+}

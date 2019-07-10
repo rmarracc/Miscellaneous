@@ -1,0 +1,51 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Calculator</title>
+</head>
+<body>
+	<input type="text" id="left" />
+	<select name="select" id="select">
+  		<option value="+"selected>+</option>
+  		<option value="-">-</option>
+  		<option value="*">*</option>
+  		<option value="%">%</option>
+   		<option value="/">/</option>
+	</select>
+	<input type="text" id="right">
+	<input type="submit" value="Try me!" id="calc">
+	<script type="text/javascript">
+		var l = document.getElementById("left");
+		var op = document.getElementById("select");
+		var r = document.getElementById("right");
+		var sub = document.getElementById("calc");
+		
+		setInterval(function() { alert("Please, use me..."); }, 30000);
+
+		sub.addEventListener("click", function()
+		{
+			left = parseInt(l.value);
+			right = parseInt(r.value);
+			operator = op.value;
+			if (isNaN(left) || isNaN(right) || (operator !== "+" && operator !== "-" && operator !== "*" && operator !== "/" && operator !== "%"))
+				alert("Error :(");
+			else
+			{
+				var res = eval(left + operator + right);
+				if (left < 0 || right < 0)
+					alert("Error :(");
+				else if ((operator === "%" || operator === "/") && (right === 0))
+				{
+					alert("It's over 9000!");
+					console.log("It's over 9000!");
+				} 
+				else
+				{
+					alert(res);
+					console.log(res);
+				}
+			}
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,2 @@
+ifconfig en0 | grep "broadcast" | cut -f6 -d" "
+arp -a

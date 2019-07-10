@@ -1,0 +1,4 @@
+En session ssh : su <nouvel utilisateur>
+Il faudra inserer le mot de passe, puis la connection est effectuee
+
+En session graphique : Via l'onglet "Utilisateurs et groupes" ou "Comptes utilisateur" dans les parametres, en fonction de l'interface graphique

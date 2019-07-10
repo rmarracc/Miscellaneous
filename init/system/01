@@ -1,0 +1,2 @@
+La version actuelle de debian est stockee dans cat /etc/issue
+On peut en avoir une version plus precise dans /etc/debian_version

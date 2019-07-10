@@ -1,0 +1,44 @@
+#!/bin/sh
+MAX_ARGS=1
+ARGC=$#
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+NC='\033[0m'
+RET="$(shuf -i 0-2 -n 1)"
+
+if [ $ARGC -ne $MAX_ARGS ]
+then
+    echo "${RED}Le nombre d'arguments est incorrect, c'est regrettable"
+    return 0
+fi;
+
+if [ $1 != "Pierre" ]
+then
+    if [ $1 != "Feuille" ]
+    then
+        if [ $1 != "Ciseaux" ]
+        then
+            echo "${RED}La figure est incorrecte, c'est dommage"
+            return 0
+        fi;
+    fi;
+fi;
+
+if [ $RET = "0" ]
+then
+    echo "${RED}Tu as perdu, tu es comme un malloc qui a foire, tu es NULL"
+    return 0
+fi;
+
+if [ $RET = "1" ]
+then
+    echo "${YELLOW}Egalite, c'est comme une libft a 80, c'est pas terrible mais il y a pire"
+    return 0
+fi;
+
+if [ $RET = "2" ]
+then
+    echo "${GREEN}Tu as gagne, tu as obtenu le droit de me mettre 100 a init :P"
+    return 0
+fi;

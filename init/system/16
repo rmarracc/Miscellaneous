@@ -1,0 +1,2 @@
+Le service qui permet de lancer des taches a horaires regulieres est cron
+On peut retrouver les taches fixees dans le dossier /etc/crontab

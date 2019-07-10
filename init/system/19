@@ -1,0 +1,3 @@
+console-setup.sh  hwclock.sh         kmod        rsync    sudo
+cron              irqbalance         networking  rsyslog  udev
+dbus              keyboard-setup.sh  procps      ssh

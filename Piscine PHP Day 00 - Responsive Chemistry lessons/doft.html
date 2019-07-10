@@ -1,0 +1,53 @@
+<!-- *********************************************************************** -->
+<!--                                                                         -->
+<!--                                                      :::      ::::::::  -->
+<!-- doft.html                                          :+:      :+:    :+:  -->
+<!--                                                  +:+ +:+         +:+    -->
+<!-- By: rmarracc <marvin@42.fr>                    +#+  +:+       +#+       -->
+<!--                                              +#+#+#+#+#+   +#+          -->
+<!-- Created: 2019/01/07 15:23:39 by rmarracc          #+#    #+#            -->
+<!-- Updated: 2019/01/08 08:05:16 by rmarracc         ###   ########.fr      -->
+<!--                                                                         -->
+<!-- *********************************************************************** -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Day of the 42</title>
+    <link rel="stylesheet" href="doft.css">
+</head>
+<body>
+    <center>
+		<div class="header border">
+			<img class="logo" src="resources/day_of_the_42.png" width="450" height="auto" alt="Logo" title="Logo">
+			<a href="http://disney.com/"><img class="reload" src="resources/reload.png" width="20" height="auto" alt="Restart" title="Restart"></a>
+			<a href="http://relaischateaux.com"><img class="close" src="resources/close.gif" width="20" height="auto" alt="Close" title="Close"></a>
+			<img class="loupe" src="resources/loupe.png" width="220" height="auto" alt="Loupe" title="Loupe">
+		</div>
+		<div class="litems border">
+			<img class="left" src="resources/arrow.png" width="60" height="auto" alt="Avancer" title="Avancer">
+			<img class="left" src="resources/main.png" width="60" height="auto" alt="Prendre" title="Prendre">
+			<img class="left focus" src="resources/oeil.png" width="60" height="auto" alt="Regarder" title="Regarder">
+			<img class="left" src="resources/outil.png" width="60" height="auto" alt="Utiliser" title="Utiliser">
+			<img class="left" src="resources/chat-icon.png" width="60" height="auto" alt="Parler" title="Parler">
+		</div>
+		<img class= "cluster border" src="resources/cluster.jpg" alt="Cluster" title="Cluster" usemap="Map">
+		<div class="ritems border">
+			<img class="left" src="resources/book.png" width="60" height="auto" alt="Livret de TIG" title="Livret de TIG">
+			<img class="left" src="resources/towel.png" width="60" height="auto" alt="Piscineux en sueur" title="Piscineux en sueur">
+			<div style="background-image:url('resources/brick.jpg'); width:120px;height:60px;" alt="Wall" title="Wall"></div>
+		</div>
+	</center>
+	<div class="box">
+		<p>Vous <span class="shadtext">entrez</span> alors dans une grande piece remplie<br>d'<span class="mac">ordinateurs</span>...<br><i>- Bonjour, vous êtes nouveau ici ?</i></p>
+		<form method="post" title="Answer">
+			<input class="gettext" type="text"><input class="button" type="submit" value="Répondre"/>
+		</form>
+	</div>
+	<map name="Map" id="Map">
+        <area alt="Mac" title="Mac" href="http://www.apple.com" shape="rect" coords="783,466,980,305" />
+        <area alt="Chaise" title="Chaise" href="http://www.ikea.com" shape="rect" coords="323,327,455,541" />
+    </map>
+</body>
+</html>
