@@ -9,10 +9,6 @@ Various programms that are too little to have a proper repo
 
 - 42 subject introducing some sysadmin basics
 
-### minishell
-
-- Very basic shell with few builtins in C
-
 ### PHP 00 - Day of the 42
 
 - Reproduction of the Day of the 42 entry page in HTML/CSS
@@ -37,14 +33,20 @@ Various programms that are too little to have a proper repo
 
 - Very basic and minimal Javascript to-do list
 
+### cobol_plus_or_minus
+
+- Very simple Plus or Minus game using COBOL language, compile with `cobc -free -x -o [prog_name] plus_or_minus.cbl`
+
+## C Archive
+
+### minishell
+
+- Very basic shell with few builtins in C
+
 ### rogue_like_map_generator
 
 - More powerful map generation algorithm, can be used with my wolf3D project (https://github.com/rmarracc/wolf3D)
 - Can be used as a standalone program (generator executable) or as a library (libmapgen.a)
-
-### cobol_plus_or_minus
-
-- Very simple Plus or Minus game using COBOL language, compile with `cobc -free -x -o [prog_name] plus_or_minus.cbl`
 
 ### simple_fort_boyard_chops_game
 
