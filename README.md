@@ -42,9 +42,9 @@ Various programms that are too little to have a proper repo
 - More powerful map generation algorithm, can be used with my wolf3D project (https://github.com/rmarracc/wolf3D)
 - Can be used as a standalone program (generator executable) or as a library (libmapgen.a)
 
-### rtv1
+### cobol_plus_or_minus
 
-- Very simple raytracer in C, obsoleted since the rt project (https://github.com/rmarracc/rt) is far more evolved
+- Very simple Plus or Minus game using COBOL language, compile with `cobc -free -x -o [prog_name] plus_or_minus.cbl`
 
 ### simple_fort_boyard_chops_game
 
